@@ -1,0 +1,21 @@
+.main__section {
+  background: white;
+  overflow-x: hidden;
+}
+
+.col__main__section h1 {
+  margin-top: 20%;
+  font-size: 36px;
+}
+
+.col__image img {
+  height: 550px;
+  width: 500px;
+  margin-top: 10%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .col__main__section {
+    text-align: center;
+  }
+}
